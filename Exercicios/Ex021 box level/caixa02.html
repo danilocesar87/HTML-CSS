@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+           background-color: rgb(208, 165, 248);
+           margin: 0px;
+        }
+        header{
+            background-color: white;
+            margin:10px;
+            padding: 10px;
+        }
+        #assuntos{
+            background-color: antiquewhite;
+        }
+        #noticia{
+            background-color: aquamarine;
+        }
+        #rodape{
+            background-color: black;
+            color: white;
+            padding: 1px;
+            text-align: center;
+
+        }
+        footer > p{
+            margin: 0px;
+        }
+        nav {
+           background-color: rgb(214, 211, 211);
+            padding: 3px;
+            margin: 3px;
+            box-shadow:  5px 3px 7px 1px rgba(0, 0, 0, 0.425);
+            /* box shadow (caixa de sombra) segue a ordem deslocamento horizontal, deslocamento vertical, blur(embaçamento), spread(espalhamento), cor, inset(dentro da caixa) vc coloca inset na sequencia de box-shadow:inset...*/ 
+           
+        }
+        nav > a{
+            text-decoration: none;
+            padding: 1px;
+            margin-right: 20px;
+        }
+        #artigo{
+            background-color: rgb(143, 143, 243);
+            
+        }
+        nav > a:hover{
+            background-color: blueviolet;
+            color: white;
+        }
+        section{
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section>
+            <article id="noticia">
+                <h2>Noticia sobre o Brasil</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur expedita eaque quo cupiditate porro atque necessitatibus illo rem voluptate eligendi, praesentium ratione dignissimos harum quod quae autem deleniti repudiandae asperiores.
+                </p>
+                <aside id="artigo">
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+<footer id="rodape">
+        <p>Desenvolvido pelo CursoemVideo</p>
+
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

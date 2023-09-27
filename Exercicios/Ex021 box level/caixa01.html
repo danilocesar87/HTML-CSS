@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        /* Podemos simplicar border, margin e padding exemplo de margin e padding, podemos colocar margin ou padding top, right, bottom e left em uma unica linha sguindo essa ordem margin: 10px 10px 20px 30px, caso o valor seja igual pra todos basta colocar margin 10px;, tambem da pra colocar dois valores caso a top e bottom sejam iguais e right e left tambem exemplo margin: 10px 15px; para border seguir esssa ordem border width, style e color exemplo border:10px solid red;*/
+        h1{ /*box level podemos mudar o display do box para display:block da pra personalizar height,widht o inline não se altera ou display:inline ou display:block-inline*/
+            background-color: aquamarine;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+        
+            border-style: solid;
+            border-color: blue;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin: auto; /*auto siginifica  centralizar */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blueviolet;
+
+        }
+
+        a{ /*box inline-level*/
+            
+            
+            color: brown;
+            border: 10px solid aqua;
+            padding: 5px;
+                       
+
+        }
+        a:hover{
+            color: white;
+            background-color: blueviolet;
+        }
+    </style>
+       
+
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box level, mas os <a href="#"> links são exemplos de caixas inline-level</a> Vamos ver como tudo isso funciona </p>
+   
+    
+    
+</body>
+</html>
