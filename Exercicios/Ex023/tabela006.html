@@ -3,9 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabela Responsiva</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+     
+
+       
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 2.2em;
+            font-weight: bolder;
+            padding: 50px;
+            color: aqua;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+        .amarelo {
+            background-color: chartreuse;
+        }
+
+        div#container {
+            overflow-x: auto;
+        }
+
+       
+    </style>
 </head>
 <body>
-    
+    <h1>Tabela Responsiva</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, mollitia, vero id quae sit expedita culpa, et totam itaque quisquam consequuntur voluptates ullam non illum unde architecto voluptate ipsa inventore.</p>
+
+    <caption>
+        Tabelas responsivas em telas pequenas
+    </caption>
+
+    <div id="container">
+        <table>
+
+            <colgroup>
+                <col class="amarelo">
+                <col>
+                <col class="amarelo">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tv 40"</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>21</td>
+                    <td>26</td>
+                    <td>31</td>
+                    <td>36</td>
+                    <td>41</td>
+                    <td>46</td>
+                    <td>51</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>Home Theater</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>21</td>
+                    <td>26</td>
+                    <td>31</td>
+                    <td>36</td>
+                    <td>41</td>
+                    <td>46</td>
+                    <td>51</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>Samsumg galaxy s30</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>21</td>
+                    <td>26</td>
+                    <td>31</td>
+                    <td>36</td>
+                    <td>41</td>
+                    <td>46</td>
+                    <td>51</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>Ipad mini</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>21</td>
+                    <td>26</td>
+                    <td>31</td>
+                    <td>36</td>
+                    <td>41</td>
+                    <td>46</td>
+                    <td>51</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>Playstation 4</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>21</td>
+                    <td>26</td>
+                    <td>31</td>
+                    <td>36</td>
+                    <td>41</td>
+                    <td>46</td>
+                    <td>51</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>Lava-louças</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>21</td>
+                    <td>26</td>
+                    <td>31</td>
+                    <td>36</td>
+                    <td>41</td>
+                    <td>46</td>
+                    <td>51</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>Amazon echo</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>21</td>
+                    <td>26</td>
+                    <td>31</td>
+                    <td>36</td>
+                    <td>41</td>
+                    <td>46</td>
+                    <td>51</td>
+                    <td>56</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
