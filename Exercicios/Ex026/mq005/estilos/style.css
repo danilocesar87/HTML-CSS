@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color: aqua;
+}
+
+main {
+    background-color: bisque;
+}
+
+article {
+    background-color: cadetblue;
+}
+
+header {
+    background-color: azure;
+}
+
+menu {
+    background-color: chartreuse;
+    
+}
+
+p {
+    background-color: chocolate;
+}
+
+h1, h2 {
+    background-color: crimson;
+}
+
+a {
+    background-color: darkolivegreen;
+    color: white;
+    text-decoration: none;
+    
+}
+
+li {
+    display: inline-block;
+   
+
+    
+}
+
