@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/*Todas as configurações de media */
+/*Pesquisar typical device brakpoints
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: 992px ate 1200px
+Grandes Telas: acima de 1200px
+*/
+
+/* essas medias de pequenas telas embaixo será ignorado porque ja foram feitas no style.css
+
+@media screen and (max-width:600px) { /*pequenas telas
+
+}
+
+@media screen and (min-width:600px) and /*celular(max-width:768px) {
+
+}
+
+
+*/
+
+@media screen and (min-width:768px) {
+   
+    span#burguer {
+        display: none;
+       
+    }
+
+    menu {
+        display:block;
+        
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
+
+/* essas configurações foi eu que fiz
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+   
+    body {
+       
+    }
+
+    menu {
+        display:block;
+        
+    }
+}
+
+
+    @media screen and (min-width:600px) and (max-width:768px) {
+   
+       
+        menu {
+            display:none;
+            
+        }
+    
+    }
+*/

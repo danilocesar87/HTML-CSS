@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
 
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+
     
    
 </head>
-<body>
+<body onresize="mudouTamanho()">
 
    
     
@@ -61,6 +63,14 @@
             itens.style.display='none'
             } else {
             itens.style.display= 'block' }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'}
+             else {itens.style.display = 'none'}
+
+            
         }
 
     </script>
